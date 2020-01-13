@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class AboutController {
-    @GetMapping("about.html")
+    @GetMapping("/about")
     String getAbout(){
-        return "about.html";
+        return "about";
     }
 }
